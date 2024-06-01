@@ -18,7 +18,6 @@
     font-style: normal;
   }
   
-  
   /* max with ti aiuta a manterere la dimensione delle boxex sempre all'interno del viewport */
   h1 {
     margin: 0;
@@ -29,7 +28,7 @@
     font-weight: 500;
     line-height: .9;
     text-align: center;
-  
+
   }
   
   h2 {
@@ -69,3 +68,21 @@
     color: red;
     font-size: 4em;
   }
+
+    /* positioning */ 
+  
+    .top-bar  {
+          /* overwrite the default user agent stylesheet margin */ 
+      text-align: center;
+      background-color: hotpink;
+    }
+
+    .top-bar-link {
+      display: block; 
+      padding: 1em 0;
+      text-decoration: none;
+    }
+
+    .top-bar-link:hover{
+      background-color: blue;
+    }
